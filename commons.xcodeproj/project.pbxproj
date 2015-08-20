@@ -18,6 +18,7 @@
 		D6E6D7391B85E30300FB029D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D7381B85E30300FB029D /* Util.swift */; };
 		D6E6D73B1B85E38B00FB029D /* Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D73A1B85E38B00FB029D /* Autolayout.swift */; };
 		D6E6D73D1B85E3DC00FB029D /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D73C1B85E3DC00FB029D /* Dispatch.swift */; };
+		D6E6D73F1B85EDC400FB029D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D73E1B85EDC400FB029D /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		D6E6D7381B85E30300FB029D /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		D6E6D73A1B85E38B00FB029D /* Autolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autolayout.swift; sourceTree = "<group>"; };
 		D6E6D73C1B85E3DC00FB029D /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
+		D6E6D73E1B85EDC400FB029D /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				D6E6D72E1B85E17900FB029D /* UIImage+Scale.swift */,
 				D6E6D72C1B85DF2100FB029D /* UIView+Commons.swift */,
 				D6E6D7381B85E30300FB029D /* Util.swift */,
+				D6E6D73E1B85EDC400FB029D /* String.swift */,
 			);
 			path = commons;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				D6E6D7331B85E22B00FB029D /* Array.swift in Sources */,
 				D6E6D73D1B85E3DC00FB029D /* Dispatch.swift in Sources */,
 				D6E6D7391B85E30300FB029D /* Util.swift in Sources */,
+				D6E6D73F1B85EDC400FB029D /* String.swift in Sources */,
 				D6E6D72F1B85E17900FB029D /* UIImage+Scale.swift in Sources */,
 				D6E6D7351B85E25000FB029D /* NSData.swift in Sources */,
 				D6E6D72D1B85DF2100FB029D /* UIView+Commons.swift in Sources */,

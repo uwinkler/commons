@@ -54,14 +54,7 @@ public extension NSData {
         }
         
         return ret        
-    }
-    
-    public func reverse() ->  NSData {
-        let array  = self.toUInt8Array();
-        return Util.toData(array.reverse())
-    }
-    
-    
+    }        
 
 }
 
