@@ -10,6 +10,14 @@
 		D6E6D7141B85DB9D00FB029D /* commons.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E6D7131B85DB9D00FB029D /* commons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6E6D71A1B85DB9D00FB029D /* commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6D70E1B85DB9D00FB029D /* commons.framework */; };
 		D6E6D7211B85DB9D00FB029D /* commonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D7201B85DB9D00FB029D /* commonsTests.swift */; };
+		D6E6D72D1B85DF2100FB029D /* UIView+Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D72C1B85DF2100FB029D /* UIView+Commons.swift */; };
+		D6E6D72F1B85E17900FB029D /* UIImage+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D72E1B85E17900FB029D /* UIImage+Scale.swift */; };
+		D6E6D7331B85E22B00FB029D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D7321B85E22B00FB029D /* Array.swift */; };
+		D6E6D7351B85E25000FB029D /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D7341B85E25000FB029D /* NSData.swift */; };
+		D6E6D7371B85E2B500FB029D /* ArrayWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D7361B85E2B500FB029D /* ArrayWrapper.swift */; };
+		D6E6D7391B85E30300FB029D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D7381B85E30300FB029D /* Util.swift */; };
+		D6E6D73B1B85E38B00FB029D /* Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D73A1B85E38B00FB029D /* Autolayout.swift */; };
+		D6E6D73D1B85E3DC00FB029D /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6D73C1B85E3DC00FB029D /* Dispatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		D6E6D7191B85DB9D00FB029D /* commonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = commonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E6D71F1B85DB9D00FB029D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6E6D7201B85DB9D00FB029D /* commonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonsTests.swift; sourceTree = "<group>"; };
+		D6E6D72C1B85DF2100FB029D /* UIView+Commons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Commons.swift"; sourceTree = "<group>"; };
+		D6E6D72E1B85E17900FB029D /* UIImage+Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Scale.swift"; sourceTree = "<group>"; };
+		D6E6D7321B85E22B00FB029D /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		D6E6D7341B85E25000FB029D /* NSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSData.swift; sourceTree = "<group>"; };
+		D6E6D7361B85E2B500FB029D /* ArrayWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayWrapper.swift; sourceTree = "<group>"; };
+		D6E6D7381B85E30300FB029D /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		D6E6D73A1B85E38B00FB029D /* Autolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autolayout.swift; sourceTree = "<group>"; };
+		D6E6D73C1B85E3DC00FB029D /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +87,16 @@
 		D6E6D7101B85DB9D00FB029D /* commons */ = {
 			isa = PBXGroup;
 			children = (
+				D6E6D7321B85E22B00FB029D /* Array.swift */,
+				D6E6D7361B85E2B500FB029D /* ArrayWrapper.swift */,
+				D6E6D73A1B85E38B00FB029D /* Autolayout.swift */,
 				D6E6D7131B85DB9D00FB029D /* commons.h */,
+				D6E6D73C1B85E3DC00FB029D /* Dispatch.swift */,
+				D6E6D7341B85E25000FB029D /* NSData.swift */,
 				D6E6D7111B85DB9D00FB029D /* Supporting Files */,
+				D6E6D72E1B85E17900FB029D /* UIImage+Scale.swift */,
+				D6E6D72C1B85DF2100FB029D /* UIView+Commons.swift */,
+				D6E6D7381B85E30300FB029D /* Util.swift */,
 			);
 			path = commons;
 			sourceTree = "<group>";
@@ -209,6 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E6D7331B85E22B00FB029D /* Array.swift in Sources */,
+				D6E6D73D1B85E3DC00FB029D /* Dispatch.swift in Sources */,
+				D6E6D7391B85E30300FB029D /* Util.swift in Sources */,
+				D6E6D72F1B85E17900FB029D /* UIImage+Scale.swift in Sources */,
+				D6E6D7351B85E25000FB029D /* NSData.swift in Sources */,
+				D6E6D72D1B85DF2100FB029D /* UIView+Commons.swift in Sources */,
+				D6E6D73B1B85E38B00FB029D /* Autolayout.swift in Sources */,
+				D6E6D7371B85E2B500FB029D /* ArrayWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

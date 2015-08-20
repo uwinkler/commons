@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6B157958-F82D-4E38-A972-FF3A4D117360</string>
+	<key>IDESourceControlProjectName</key>
+	<string>commons</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6BF49C000E56A10E35C2F8ABA0C656A406B6A6C2</key>
+		<string>https://github.com/uwinkler/commons.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>commons.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6BF49C000E56A10E35C2F8ABA0C656A406B6A6C2</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/uwinkler/commons.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6BF49C000E56A10E35C2F8ABA0C656A406B6A6C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6BF49C000E56A10E35C2F8ABA0C656A406B6A6C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>commons</string>
+		</dict>
+	</array>
+</dict>
+</plist>
