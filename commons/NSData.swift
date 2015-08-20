@@ -1,6 +1,5 @@
 //
 //  NSData.swift
-//  Monteverdi
 //
 //  Created by Ulrich Winkler on 19/01/2015.
 //  Copyright (c) 2015 Ulrich Winkler. All rights reserved.
